@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PageIndicatorView">
+        <attr name="indicator" format="reference"/>
+        <attr name="indicatorCount" format="integer|reference"/>
+        <attr name="indicatorSpacing" format="dimension|reference"/>
+        <attr name="indicatorTint" format="color|reference"/>
+        <attr name="indicatorSelectedTint" format="color|reference"/>
+    </declare-styleable>
+</resources>

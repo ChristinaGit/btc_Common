@@ -1,0 +1,124 @@
+<resources>
+
+    <style name="Btc"/>
+
+    <style name="Btc.Base"/>
+
+    <style name="Btc.Base.Text"/>
+
+    <!--region Menu item-->
+
+    <style name="Btc.Base.MenuItem"/>
+
+    <style name="Btc.Base.MenuItem.Container">
+        <item name="android:background">?android:attr/actionBarItemBackground</item>
+    </style>
+
+    <style name="Btc.Base.MenuItem.Icon">
+        <item name="android:layout_width">32dp</item>
+        <item name="android:layout_height">32dp</item>
+        <item name="android:layout_marginTop">2dp</item>
+        <item name="android:layout_marginBottom">2dp</item>
+        <item name="android:layout_marginStart">12dp</item>
+        <item name="android:layout_marginEnd">12dp</item>
+    </style>
+
+    <!--endregion Menu item-->
+
+    <!--region Navigation item-->
+
+    <style name="Btc.Base.NavigationItem"/>
+
+    <style name="Btc.Base.NavigationItem.Container">
+        <item name="android:layout_height">?android:listPreferredItemHeightSmall</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:foreground">?selectableItemBackground</item>
+        <item name="android:paddingStart">?android:listPreferredItemPaddingStart</item>
+        <item name="android:paddingEnd">?android:listPreferredItemPaddingEnd</item>
+    </style>
+
+    <style name="Btc.Base.NavigationItem.Normal">
+        <item name="android:maxLines">1</item>
+        <item name="android:drawablePadding">32dp</item>
+        <item name="android:textAlignment">gravity</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Body2</item>
+    </style>
+
+    <!--endregion Navigation item-->
+
+    <!--region Cards-->
+
+    <style name="Btc.Card"/>
+
+    <style name="Btc.Card.Large"/>
+
+    <style name="Btc.Card.Large.Text" parent="Btc.Card">
+        <item name="android:ellipsize">end</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="Btc.Card.Large.Text.Header">
+        <item name="android:textAppearance">?android:textAppearanceListItem</item>
+        <item name="android:textSize">@dimen/card_large_primary_text_size</item>
+        <item name="android:paddingTop">@dimen/card_large_primary_text_padding_top</item>
+        <item name="android:paddingBottom">@dimen/card_large_primary_text_padding_bottom</item>
+        <item name="android:paddingStart">@dimen/card_large_primary_text_padding_start</item>
+        <item name="android:paddingEnd">@dimen/card_large_primary_text_padding_end</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+    <style name="Btc.Card.Large.Text.Subheader">
+        <item name="android:textAppearance">?android:textAppearanceListItemSecondary</item>
+        <item name="android:textSize">@dimen/card_large_secondary_text_size</item>
+        <item name="android:textColor">?android:textColorSecondary</item>
+        <item name="android:paddingTop">@dimen/card_large_secondary_text_padding_top</item>
+        <item name="android:paddingBottom">@dimen/card_large_secondary_text_padding_bottom</item>
+        <item name="android:paddingStart">@dimen/card_large_secondary_text_padding_start</item>
+        <item name="android:paddingEnd">@dimen/card_large_secondary_text_padding_end</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+    <style name="Btc.Card.Large.Text.Content">
+        <item name="android:textAppearance">?android:textAppearanceListItemSecondary</item>
+        <item name="android:textSize">@dimen/card_large_secondary_text_size</item>
+        <item name="android:paddingTop">@dimen/card_large_secondary_text_padding_top</item>
+        <item name="android:paddingBottom">@dimen/card_large_secondary_text_padding_bottom</item>
+        <item name="android:paddingStart">@dimen/card_large_secondary_text_padding_start</item>
+        <item name="android:paddingEnd">@dimen/card_large_secondary_text_padding_end</item>
+        <item name="android:maxLines">2</item>
+    </style>
+
+    <!--endregion Cards-->
+
+    <style name="ClearContentButtonStyle" parent="Base.Widget.AppCompat.Button">
+        <item name="android:minWidth">48dp</item>
+        <item name="android:background">?selectableItemBackgroundBorderless</item>
+        <item name="android:src">@drawable/ic_material_clear</item>
+    </style>
+
+    <style name="Btc.Text.NonEditable" parent="Btc.Base.Text">
+        <item name="android:clickable">false</item>
+        <item name="android:cursorVisible">false</item>
+        <item name="android:focusable">false</item>
+        <item name="android:focusableInTouchMode">false</item>
+        <item name="android:inputType">textNoSuggestions</item>
+        <item name="android:longClickable">false</item>
+    </style>
+
+    <style name="Btc.Text.NonEditable.Cleared">
+        <item name="android:background">@null</item>
+        <item name="android:paddingStart">4dp</item>
+        <item name="android:paddingEnd">4dp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+    </style>
+
+    <style name="Btc.Text.Editable.Cleared" parent="Btc.Base.Text">
+        <item name="android:background">@null</item>
+        <item name="android:paddingStart">4dp</item>
+        <item name="android:paddingEnd">4dp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+    </style>
+</resources>

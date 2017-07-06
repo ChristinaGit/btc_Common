@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="tag_item_spacing_decoration_mode" type="id"/>
+    <item name="tag_item_divider_decoration_mode" type="id"/>
+    <item name="tag_item_group_parent_index" type="id"/>
+    <item name="tag_item_group_child_index" type="id"/>
+
+    <item name="tag_view_event_args" type="id"/>
+    <item name="tag_view_position" type="id"/>
+    <item name="tag_view_view_holder" type="id"/>
+    <item name="tag_view_id" type="id"/>
+    <item name="tag_view_cache" type="id"/>
+    <item name="tag_view_type" type="id"/>
+    <item name="tag_view_text_watcher" type="id"/>
+</resources>

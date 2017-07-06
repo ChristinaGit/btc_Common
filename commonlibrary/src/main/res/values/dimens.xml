@@ -1,0 +1,32 @@
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="navigation_drawer_width">280dp</dimen>
+    <dimen name="navigation_drawer_padding_start">16dp</dimen>
+    <dimen name="navigation_drawer_padding_end">16dp</dimen>
+
+    <dimen name="grid_large_spacing">8dp</dimen>
+
+    <dimen name="card_large_primary_text_size">24sp</dimen>
+    <dimen name="card_large_primary_text_padding_top">24dp</dimen>
+    <dimen name="card_large_primary_text_padding_bottom">16dp</dimen>
+    <dimen name="card_large_primary_text_padding_start">16dp</dimen>
+    <dimen name="card_large_primary_text_padding_end">16dp</dimen>
+    <dimen name="card_large_secondary_text_size">14sp</dimen>
+    <dimen name="card_large_secondary_text_padding_top">0dp</dimen>
+    <dimen name="card_large_secondary_text_padding_bottom">16dp</dimen>
+    <dimen name="card_large_secondary_text_padding_start">16dp</dimen>
+    <dimen name="card_large_secondary_text_padding_end">16dp</dimen>
+    <dimen name="card_large_corner_radius">4dp</dimen>
+
+    <dimen name="list_item_two_line_horizontal_padding">16dp</dimen>
+
+    <dimen name="list_vertical_padding">16dp</dimen>
+
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="text_drawable_padding_small">4dp</dimen>
+    <dimen name="text_drawable_padding_medium">8dp</dimen>
+    <dimen name="text_drawable_padding_large">16dp</dimen>
+</resources>
